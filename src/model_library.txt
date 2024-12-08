@@ -1,0 +1,17 @@
+####### MODELS TESTED TO BE COMPATIBLE TO WITH OUR PIPELINE: #######
+
+# OPENAI FAMILY
+
+- GPT-3.5 turbo: ""gpt-3.5-turbo" 
+- GPT-4o Mini: "gpt-4o-mini" 
+- GPT-4o: "gpt-4o""
+
+# GEMINI FAMILY
+
+- Gemini 1.5 Pro: "gemini-1.5-pro" 
+- Gemini 1.5 Flash: "gemini-1.5-flash"
+
+# LLAMA 3.1 FAMILY
+
+- Llama 3.1 405B-Instruct: "llama3.1-405b"
+- Llama 3.1 70B-Instruct: "llama3.1-70b"
