@@ -1,5 +1,5 @@
 # IdeaBench
-
+![IdeaBenchImage](IdeaBench.png)
 
 ### 1. Setting up the Environment
 1. **Create Conda Environment:**
