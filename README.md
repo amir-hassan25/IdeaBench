@@ -1,5 +1,8 @@
 # IdeaBench
 ![IdeaBenchImage](IdeaBench.png)
+> IdeaBench benchmark system that provides a structured dataset and evaluation framework for standardizing the assessment of research idea generation by LLMs. Our dataset comprises titles and abstracts from 2,374 influential papers across eight research domains, along with their 29,408 referenced works, creating a context-rich environment that mirrors human researchers’ ideation processes. By profiling LLMs as domain-specific researchers and grounding them in similar contextual constraints, we directly leverage the models’ knowledge learned from the pre-training stage to generate new research ideas.
+
+## Using IdeaBench👇
 
 ### 1. Setting up the Environment
 1. **Create Conda Environment:**
