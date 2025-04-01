@@ -18,7 +18,7 @@
 	* To be able to generate and evaluate research ideas using this repository, it its necessary to obtain at least an [OpenAI API key](https://platform.openai.com/docs/overview). If you wish to use the Gemini models or Llama 3.1 models to generate research ideas, you need to additionally have a [Google AI](https://ai.google.dev/gemini-api/docs/api-key) or a [DeepInfra](https://deepinfra.com/) API key respectively. Add the applicable API keys in the same bash scripts mentioned earlier.
 
 ### 3.  Building the Dataset (optional)
-* Though we provide the dataset used in our benchmark in `/src/dataset`, you can optionally create a new dataset using `src/build_dataset.sh`. 
+* Though we provide the dataset used in our benchmark in `/data/dataset`, you can optionally create a new dataset using `src/build_dataset.sh`. 
 * To generate a new dataset, edit the `year` variable in `src/build_dataset.sh` to be the year you desire to extract target papers from, then execute the bash script in your terminal by running `./build_dataset.sh`. 
 
 ### 4. Generating and Evaluating Research Ideas
@@ -46,6 +46,7 @@ filtered_ref="True" # When True, you are using filtered references, otherwise, y
 * Populate this list with all the models you generated research ideas with along with the path their evaluation files are saved. An example of how this is done is provided in `src/analyze_results.sh`. By default, it is expected to have low and high resource results for each model, as done in the benchmark, however, if you have only outputs for one setting, just set both paths to be the same (note in this case, the txt files with the results will show repeated results for "low" and "high" resource scenarios). 
 * Next set the `output_file` variable with the name you want the text file containing the results to be.
 * Once configured, run `./analyze_results.sh`
+* **Category-Specific Results:** If you wish to obtain results specific to the category of the target papers, please refer to the notebook we provide in `data/idea_bench_topic_specific_results.ipynb`.
 
 ### Note on API rate limits.
 * Each API has their own respective rate limits.
